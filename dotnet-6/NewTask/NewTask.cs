@@ -13,6 +13,9 @@ var body = Encoding.UTF8.GetBytes(message);
 var properties = channel.CreateBasicProperties();
 properties.Persistent = true;
 
+// The first parameter is the name of the exchange.
+// The empty string denotes the default or nameless exchange:
+// messages are routed to the queue with the name specified by routingKey, if it exists.
 channel.BasicPublish(exchange: "", routingKey: "task_queue", basicProperties: properties, body: body);
 Console.WriteLine($" [x] Sent {message}");
 

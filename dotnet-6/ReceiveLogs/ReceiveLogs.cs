@@ -9,7 +9,11 @@ using var channel = connection.CreateModel();
 channel.ExchangeDeclare(exchange: "logs", type: ExchangeType.Fanout);
 
 // declare a server-named queue
+
+// when we supply no parameters to QueueDeclare() we create a non-durable, exclusive, autodelete queue with a generated name:
 var queueName = channel.QueueDeclare(queue: "").QueueName;
+
+// the relationship between exchange and a queue is called a binding.
 channel.QueueBind(queue: queueName, exchange: "logs", routingKey: "");
 
 Console.WriteLine(" [*] Waiting for logs.");
