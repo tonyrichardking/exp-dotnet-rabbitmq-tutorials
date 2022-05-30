@@ -22,7 +22,7 @@ consumer.Received += (model, ea) =>
     int dots = message.Split('.').Length - 1;
     Thread.Sleep(dots * 1000);
 
-    Console.WriteLine(" [x] Done");
+    Console.WriteLine($" [x] Done (Slept for {dots} seconds)");
 
     // here channel could also be accessed as ((EventingBasicConsumer)sender).Model
     channel.BasicAck(deliveryTag: ea.DeliveryTag, multiple: false);
