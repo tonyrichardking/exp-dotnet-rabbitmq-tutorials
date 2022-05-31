@@ -1,3 +1,7 @@
+//
+// Tutorial 5: Topic exchange. Make it possible to subscribe to logs based on the source which emitted the log.
+//
+
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using System.Text;
@@ -20,7 +24,7 @@ if (args.Length < 1)
     return;
 }
 
-foreach(var bindingKey in args)
+foreach (var bindingKey in args)
 {
     channel.QueueBind(queue: queueName, exchange: "topic_logs", routingKey: bindingKey);
 }

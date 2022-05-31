@@ -1,5 +1,5 @@
 //
-// Tutorial 2: Create a Work Queue that will be used to distribute time-consuming tasks among multiple workers.
+// Tutorial 2: Work Queues.  Create a Work Queue that will be used to distribute time-consuming tasks among multiple workers.
 //
 
 using RabbitMQ.Client;

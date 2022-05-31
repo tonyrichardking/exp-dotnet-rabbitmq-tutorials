@@ -1,5 +1,5 @@
 //
-// Tutorial 3: deliver a message to multiple consumers. This pattern is known as "publish/subscribe.
+// Tutorial 3: Publish/Subscribe. Deliver a message to multiple consumers. This pattern is known as "publish/subscribe.
 //
 
 using RabbitMQ.Client;

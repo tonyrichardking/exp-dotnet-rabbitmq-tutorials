@@ -1,5 +1,5 @@
 //
-// Tutorial 4: make it possible to subscribe only to a subset of the messages.
+// Tutorial 4: Routing. Make it possible to subscribe only to a subset of the messages.
 //
 
 using RabbitMQ.Client;

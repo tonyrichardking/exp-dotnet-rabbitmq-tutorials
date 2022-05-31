@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.1.EmitLog", "EmitLog\3.1.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4.1.EmitLogDirect", "EmitLogDirect\4.1.EmitLogDirect.csproj", "{303D712F-9107-41D9-A855-46A281DA250C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmitLogTopic", "EmitLogTopic\EmitLogTopic.csproj", "{E1A0AF83-F505-483E-9F22-C0A137E4B190}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5.1.EmitLogTopic", "EmitLogTopic\5.1.EmitLogTopic.csproj", "{E1A0AF83-F505-483E-9F22-C0A137E4B190}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.1.NewTask", "NewTask\2.1.NewTask.csproj", "{7575E7F7-4C5E-42A2-894D-DDCD16D964DB}"
 EndProject
@@ -27,7 +27,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.2.Worker", "Worker\2.2.Wo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RPCServer", "RPCServer\RPCServer.csproj", "{7317B766-BBD8-402B-82E3-1DBAA376FA64}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReceiveLogsTopic", "ReceiveLogsTopic\ReceiveLogsTopic.csproj", "{497698C7-9D59-478F-9394-265915455F00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5.2.ReceiveLogsTopic", "ReceiveLogsTopic\5.2.ReceiveLogsTopic.csproj", "{497698C7-9D59-478F-9394-265915455F00}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Folder", "Solution Folder", "{853BA576-BFDF-4547-BA70-BC7781EDAB10}"
 	ProjectSection(SolutionItems) = preProject
