@@ -1,3 +1,7 @@
+//
+// Tutorial 4: make it possible to subscribe only to a subset of the messages.
+//
+
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using System.Text;
@@ -7,7 +11,9 @@ var factory = new ConnectionFactory() { HostName = "localhost" };
 using var connection = factory.CreateConnection();
 using var channel = connection.CreateModel();
 
-channel.ExchangeDeclare(exchange: "direct_logs", type: "direct");
+// changed type: "direct" to type: ExchangeType.Direct
+channel.ExchangeDeclare(exchange: "direct_logs", type: ExchangeType.Direct);
+
 // declare a server-named queue
 var queueName = channel.QueueDeclare(queue: "").QueueName;
 
@@ -20,7 +26,7 @@ if (args.Length < 1)
     return;
 }
 
-foreach(var severity in args)
+foreach (var severity in args)
 {
     channel.QueueBind(queue: queueName, exchange: "direct_logs", routingKey: severity);
 }

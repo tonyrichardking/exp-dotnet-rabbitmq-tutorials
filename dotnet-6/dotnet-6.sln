@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.31717.71
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.1.EmitLog", "EmitLog\3.1.EmitLog.csproj", "{38520F1F-5F59-4D6C-815A-BCB811B8335E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmitLogDirect", "EmitLogDirect\EmitLogDirect.csproj", "{303D712F-9107-41D9-A855-46A281DA250C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4.1.EmitLogDirect", "EmitLogDirect\4.1.EmitLogDirect.csproj", "{303D712F-9107-41D9-A855-46A281DA250C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmitLogTopic", "EmitLogTopic\EmitLogTopic.csproj", "{E1A0AF83-F505-483E-9F22-C0A137E4B190}"
 EndProject
@@ -17,7 +17,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.2.Receive", "Receive\1.2.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.2.ReceiveLogs", "ReceiveLogs\3.2.ReceiveLogs.csproj", "{63E5ECF3-C78E-4461-8247-33F3BF019EF1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReceiveLogsDirect", "ReceiveLogsDirect\ReceiveLogsDirect.csproj", "{D16666BC-C69F-49D4-96B9-3DC562CC11C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4.2.ReceiveLogsDirect", "ReceiveLogsDirect\4.2.ReceiveLogsDirect.csproj", "{D16666BC-C69F-49D4-96B9-3DC562CC11C4}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RPCClient", "RPCClient\RPCClient.csproj", "{6161C019-58A6-4A72-B3F8-D1A1FD2681E8}"
 EndProject
