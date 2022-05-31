@@ -1,3 +1,7 @@
+//
+// Tutorial 5: Topic exchange. Make it possible to subscribe to logs based on the source which emitted the log.
+//
+
 using RabbitMQ.Client;
 using System.Text;
 

@@ -1,3 +1,7 @@
+//
+// Tutorial 2: Work Queues.  Create a Work Queue that will be used to distribute time-consuming tasks among multiple workers.
+//
+
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using System.Text;
@@ -22,7 +26,7 @@ consumer.Received += (model, ea) =>
     int dots = message.Split('.').Length - 1;
     Thread.Sleep(dots * 1000);
 
-    Console.WriteLine(" [x] Done");
+    Console.WriteLine($" [x] Done (Slept for {dots} seconds)");
 
     // here channel could also be accessed as ((EventingBasicConsumer)sender).Model
     channel.BasicAck(deliveryTag: ea.DeliveryTag, multiple: false);

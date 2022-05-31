@@ -1,3 +1,7 @@
+//
+// Tutorial 3: Publish/Subscribe. Deliver a message to multiple consumers. This pattern is known as "publish/subscribe.
+//
+
 using RabbitMQ.Client;
 using System.Text;
 
@@ -9,6 +13,8 @@ channel.ExchangeDeclare(exchange: "logs", type: ExchangeType.Fanout);
 
 var message = GetMessage(args);
 var body = Encoding.UTF8.GetBytes(message);
+
+// publish to a named exchange
 channel.BasicPublish(exchange: "logs", routingKey: "", basicProperties: null, body: body);
 Console.WriteLine($" [x] Sent {message}");
 

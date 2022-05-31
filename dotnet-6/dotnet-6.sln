@@ -3,31 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31717.71
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmitLog", "EmitLog\EmitLog.csproj", "{38520F1F-5F59-4D6C-815A-BCB811B8335E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.1.EmitLog", "EmitLog\3.1.EmitLog.csproj", "{38520F1F-5F59-4D6C-815A-BCB811B8335E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmitLogDirect", "EmitLogDirect\EmitLogDirect.csproj", "{303D712F-9107-41D9-A855-46A281DA250C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4.1.EmitLogDirect", "EmitLogDirect\4.1.EmitLogDirect.csproj", "{303D712F-9107-41D9-A855-46A281DA250C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmitLogTopic", "EmitLogTopic\EmitLogTopic.csproj", "{E1A0AF83-F505-483E-9F22-C0A137E4B190}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5.1.EmitLogTopic", "EmitLogTopic\5.1.EmitLogTopic.csproj", "{E1A0AF83-F505-483E-9F22-C0A137E4B190}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewTask", "NewTask\NewTask.csproj", "{7575E7F7-4C5E-42A2-894D-DDCD16D964DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.1.NewTask", "NewTask\2.1.NewTask.csproj", "{7575E7F7-4C5E-42A2-894D-DDCD16D964DB}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PublisherConfirms", "PublisherConfirms\PublisherConfirms.csproj", "{0BBAF99D-B711-4201-B30B-114D88EDD276}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Receive", "Receive\Receive.csproj", "{BE7FEFA8-EA23-496F-B772-8EF9CC9A21D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.2.Receive", "Receive\1.2.Receive.csproj", "{BE7FEFA8-EA23-496F-B772-8EF9CC9A21D9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReceiveLogs", "ReceiveLogs\ReceiveLogs.csproj", "{63E5ECF3-C78E-4461-8247-33F3BF019EF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.2.ReceiveLogs", "ReceiveLogs\3.2.ReceiveLogs.csproj", "{63E5ECF3-C78E-4461-8247-33F3BF019EF1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReceiveLogsDirect", "ReceiveLogsDirect\ReceiveLogsDirect.csproj", "{D16666BC-C69F-49D4-96B9-3DC562CC11C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4.2.ReceiveLogsDirect", "ReceiveLogsDirect\4.2.ReceiveLogsDirect.csproj", "{D16666BC-C69F-49D4-96B9-3DC562CC11C4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RPCClient", "RPCClient\RPCClient.csproj", "{6161C019-58A6-4A72-B3F8-D1A1FD2681E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6.2.RPCClient", "RPCClient\6.2.RPCClient.csproj", "{6161C019-58A6-4A72-B3F8-D1A1FD2681E8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Send", "Send\Send.csproj", "{1BA2D501-C1AC-40B4-B540-2EBC9482BA2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.1Send", "Send\1.1Send.csproj", "{1BA2D501-C1AC-40B4-B540-2EBC9482BA2C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Worker", "Worker\Worker.csproj", "{0B7F6DF9-E9E5-454F-B8F4-3CE332ECB983}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.2.Worker", "Worker\2.2.Worker.csproj", "{0B7F6DF9-E9E5-454F-B8F4-3CE332ECB983}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RPCServer", "RPCServer\RPCServer.csproj", "{7317B766-BBD8-402B-82E3-1DBAA376FA64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6.1.RPCServer", "RPCServer\6.1.RPCServer.csproj", "{7317B766-BBD8-402B-82E3-1DBAA376FA64}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReceiveLogsTopic", "ReceiveLogsTopic\ReceiveLogsTopic.csproj", "{497698C7-9D59-478F-9394-265915455F00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5.2.ReceiveLogsTopic", "ReceiveLogsTopic\5.2.ReceiveLogsTopic.csproj", "{497698C7-9D59-478F-9394-265915455F00}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Folder", "Solution Folder", "{853BA576-BFDF-4547-BA70-BC7781EDAB10}"
 	ProjectSection(SolutionItems) = preProject

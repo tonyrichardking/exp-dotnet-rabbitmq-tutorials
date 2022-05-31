@@ -1,3 +1,20 @@
+//
+// Tutorial 6: Remote procedure call (RPC). Run a function on a remote computer and wait for the result.
+//
+
+// A note on RPC
+// Although RPC is a pretty common pattern in computing, it's often criticised. The problems arise when a
+// programmer is not aware whether a function call is local or if it's a slow RPC. Confusions like that
+// result in an unpredictable system and adds unnecessary complexity to debugging. Instead of simplifying
+// software, misused RPC can result in unmaintainable spaghetti code.
+
+// Bearing that in mind, consider the following advice:
+// Make sure it's obvious which function call is local and which is remote.
+// Document your system. Make the dependencies between components clear.
+// Handle error cases. How should the client react when the RPC server is down for a long time?
+// When in doubt avoid RPC. If you can, you should use an asynchronous pipeline - instead of RPC-like blocking, results are asynchronously pushed to a next computation stage.
+
+
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using System.Text;

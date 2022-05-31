@@ -1,3 +1,7 @@
+//
+// Tutorial 1: Hello World.  Send and receive messages from a named queue
+//
+
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using System.Text;
