@@ -1,4 +1,10 @@
-﻿using RabbitMQ.Client;
+﻿//
+// Tutorial 7: Publisher Confirms. RabbitMQ extension to implement reliable publishing.
+// When publisher confirms are enabled on a channel, messages the client publishes are confirmed
+// asynchronously by the broker, meaning they have been taken care of on the server side
+//
+
+using RabbitMQ.Client;
 using System.Collections.Concurrent;
 using System.Diagnostics;
 using System.Text;
@@ -40,7 +46,7 @@ static void PublishMessagesInBatch()
 {
     using var connection = CreateConnection();
     using var channel = connection.CreateModel();
-    
+
     // declare a server-named queue
     var queueName = channel.QueueDeclare(queue: "").QueueName;
     channel.ConfirmSelect();
@@ -119,7 +125,7 @@ static void HandlePublishConfirmsAsynchronously()
 static bool WaitUntil(int numberOfSeconds, Func<bool> condition)
 {
     int waited = 0;
-    while(!condition() && waited < numberOfSeconds * 1000)
+    while (!condition() && waited < numberOfSeconds * 1000)
     {
         Thread.Sleep(100);
         waited += 100;
